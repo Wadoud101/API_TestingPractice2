@@ -13,5 +13,8 @@ public class C01_GetResponse {
 
         Response response = given().when().get(url);
         response.prettyPrint();
+        System.out.println("------------------------");
+        response.prettyPeek();
+
     }
 }
